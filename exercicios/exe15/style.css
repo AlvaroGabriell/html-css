@@ -1,0 +1,31 @@
+
+
+body{
+     background-color:rgba(127, 255, 212, 0.733);       
+     font:20px arial   ;
+}
+h2{ color:rgb(65, 64, 64);
+    font-family:'Times New Roman', Times, serif;  
+}
+h1#tex{
+        background-color: rgba(96, 224, 224, 0.651);       
+        text-align: center;
+      font-style: italic;
+  
+     }
+
+     
+h1{ font-style: italic;
+}
+p{
+     text-align: justify;
+}
+.basico{ color:rgb(211, 180, 139);
+    
+     
+}
+
+.intermediário{ color: rgb(145, 145, 145);      
+}    
+.avançado{color:rgb(240, 204, 0);
+}

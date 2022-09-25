@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'love';
+    src: url('font/Anthony\ Hunter.ttf') format('truetype');
+
+}
+
+body{      
+      background-color:#f5f7fa ; 
+      font-family: 'love'; 
+     
+     
+}  
+
+h1, h2 {
+        
+        font-style: italic;
+         color: #0c6cf1 ;
+
+}
+
+p{
+
+  color: #0c6cf1;
+  text-align: justify; 
+}
