@@ -67,6 +67,11 @@ font-family: var(--fonte3);
 font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -85,9 +90,14 @@ padding: 5px;
 }
 
 
+section#img1{
+background-image: url(../exe21/pacote-d012/imagens/background001.jpg;
+background-position:right center ;
+}
 
-
-
+section#img2{
+    background-image:url(../exe21/livro.jpg);
+}
 
 
 
