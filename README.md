@@ -1,2 +1,2 @@
 # html-css
- Aprendeno a linguagem HTML!
+ Aprendendo a linguagem HTML!
