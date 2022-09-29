@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+
+<style>
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+   width: 500px;
+ border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td{
+    
+    padding: 10px;
+    border: 1px solid black;
+}
+th{
+    background-color: darkgray;
+}
+
+
+#sp, #mg, #rj, #ba, #pr{
+    color: blue;
+}
+
+#sp::before{
+    
+    padding-right:10px;
+    content:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png);  
+}
+
+#mg::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png);
+}
+
+#rj::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png);
+}
+
+#ba::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png);
+}
+
+#pr::before{
+    padding-right:10px;
+    content:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png) ;
+}
+
+#posi{
+
+    width:0px;
+}
+
+
+.num{
+    text-align: center;
+}
+
+
+.ri{
+    text-align: right;
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    <h1>tabela grande</h1>
+<table>
+<thead>
+<tr>
+     <th id="posi">Posição</th>
+    <th>Estado </th> 
+    <th>População</th>
+</tr>
+
+</thead>
+<tbody>
+ 
+    <tr>
+        <td class="num">1</td>
+        <td id="sp">São Paulo</td>
+        <td class="ri">46 649 132</td>
+    </tr>
+
+  
+   <tr>
+       
+       <td class="num">2</td>
+       <td id="mg">Minas Gerais</td>
+       <td class="ri">21 411 923</td>
+   </tr>
+
+   <tr>
+       <td class="num">3</td>
+       <td id="rj">Rio de Janeiro</td>
+       <td class="ri">17 463 349</td>
+   </tr>
+
+   <tr>
+       <td class="num">4</td>
+       <td id="ba">Bahia</td>
+       <td class="ri">14 985 284</td>
+   </tr>
+
+   <tr>
+       <td class="num">5</td>
+       <td id="pr">Paraná</td>
+       <td class="ri">11 597 484</td>
+   </tr>
+</tbody>
+<tfoot>
+    <tr>
+<th id="total">Total de Habitantes</th>
+   
+
+</tr>
+</tfoot>
+
+
+
+
+</table>
+
+
+
+
+
+
+</body>
+</html>
