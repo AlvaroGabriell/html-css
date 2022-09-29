@@ -28,11 +28,12 @@ td{
     border: 1px solid black;
 }
 th{
-    background-color: darkgray;
+    background-color:rgba(0, 0, 0, 0.89);
+    color: white;
 }
 
 
-#sp, #mg, #rj, #ba, #pr{
+#sp, #mg, #rj, #ba, #pr, #rgs, #pb, #ce, #pa, #sc{
     color: blue;
 }
 
@@ -62,6 +63,32 @@ th{
     content:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png) ;
 }
 
+
+#rgs::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/20px-Bandeira_do_Rio_Grande_do_Sul.svg.png);
+}
+
+#pb::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/20px-Bandeira_de_Pernambuco.svg.png);
+}
+
+#ce::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/20px-Bandeira_de_Pernambuco.svg.png);
+}
+
+#pa::before{
+    padding-right:10px;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png);
+} 
+
+#sc::before{
+    padding-right:10px;
+   content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/20px-Bandeira_de_Santa_Catarina.svg.png);
+}
+
 #posi{
 
     width:0px;
@@ -77,22 +104,38 @@ th{
     text-align: right;
 }
 
+caption{
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.total{
+    text-align: center; 
+    margin: 0px;
+    background-color:rgba(0, 0, 0, 0.89);
+    color: white;
+    font-weight:bolder;
+}
 
 
-
-
+#oi{
+    text-align: right;
+    font-weight:bolder;
+}
 </style>
 
 
 </head>
 <body>
-    <h1>tabela grande</h1>
+    
 <table>
 <thead>
 <tr>
-     <th id="posi">Posição</th>
-    <th>Estado </th> 
-    <th>População</th>
+    <caption> <strong>População das Unidades Federativa</strong></caption> 
+    <th id="posi" scope="col">Posição</th>
+    <th scope="col">Estado </th> 
+    <th scope="col">População</th>
 </tr>
 
 </thead>
@@ -129,19 +172,55 @@ th{
        <td id="pr">Paraná</td>
        <td class="ri">11 597 484</td>
    </tr>
+
+   <tr>
+    <td class="num">6</td>
+    <td id="rgs">Rio Grande do Sul</td>
+    <td class="ri">11 466 630</td>
+   </tr>
+<tr>
+   
+   <td class="num">7</td>
+   <td id="pb">Pernambuco</td>
+   <td class="ri">9 674 793</td>
+</tr>
+
+<tr>
+   <td class="num">8</td>
+   <td id="ce">Ceará</td>
+   <td class="ri">9 240 580</td>
+</tr>
+
+<tr>
+   <td class="num">9</td>
+   <td id="pa">Pará</td>
+   <td class="ri">8 777 124</td>
+</tr>
+
+<tr>
+   <td class="num">10</td>
+   <td id="sc">Santa Catarina</td>
+   <td class="ri">7 338 473	</td>
+</tr>
 </tbody>
 <tfoot>
-    <tr>
-<th id="total">Total de Habitantes</th>
+   
+<tr>
+     <th scope="row">NÚMERO</th>
+    <td class="total">TOTAL DE HABITANTES</td>
+    <td CLASS="total" id="oi"><strong>215 163 606</strong></td>
+</tr>
    
 
-</tr>
+
+
 </tfoot>
 
 
 
 
 </table>
+
 
 
 
