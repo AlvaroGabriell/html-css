@@ -15,7 +15,15 @@ body{
 table{
    width: 500px;
  border-collapse: collapse;
+position:relative;
 }
+
+thead{
+position: sticky;
+top:0;
+background-color: rgba(0, 0, 0, 0.89);
+}
+
 
 th{
     border: 1px solid black;
@@ -202,13 +210,15 @@ caption{
    <td id="sc">Santa Catarina</td>
    <td class="ri">7 338 473	</td>
 </tr>
+
+
 </tbody>
 <tfoot>
    
 <tr>
-     <th scope="row">NÚMERO</th>
-    <td class="total">TOTAL DE HABITANTES</td>
-    <td CLASS="total" id="oi"><strong>215 163 606</strong></td>
+     <th scope="row"  colspan="2" >TOTAL DE HABITANTES</th>
+    <td class="total" ><strong>215 163 606</strong></td>
+   
 </tr>
    
 
@@ -220,11 +230,6 @@ caption{
 
 
 </table>
-
-
-
-
-
 
 
 </body>
