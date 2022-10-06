@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aten{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;
+}
+
+p{
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+.lista{
+    list-style: none;
+padding: 5px;
+}
+.lista > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+}
+.lista > a:hover{
+color: orangered;
+}
+
+.sobre{
+    position: relative;
+    transform: translate(25%, -108%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;
+}
+.paga{
+    position: relative;
+    transform: translate(50%, -372%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;
+}
+img{
+    padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+  box-shadow:0px 4px 5px rgba(0, 0, 0, 0.089);
+}
+.redes{position: relative;
+    transform: translate(72%, -375%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;}
+
+#insta::before{
+    content: url(https://cf.shopee.com.br/file/aed1aaab6a81b4347b440d981f0cf76f);
+padding-right: 6px;
+
+
+}
+#tik::before{
+    content: url(https://cf.shopee.com.br/file/531a1a0e62d0f9875a56390970e5a845);
+padding-right: 6px;
+
+
+}
+#twit::before{
+    content: url(https://cf.shopee.com.br/file/bcdeab74f7f0a1c59b10863f023d1c61);
+padding-right: 6px;
+
+
+}
+#face::before{
+    content: url(https://cf.shopee.com.br/file/33b3213444ab1fa40c1eb7abf8b91b11);
+padding-right: 6px;
+
+
+}
+#link::before{
+    content: url(https://cf.shopee.com.br/file/ddf4fb18c6fa5e2d73459a7a7ea0953b);
+padding-right: 6px;
+
+
+}
+.baixar{
+    position: relative;
+    transform: translate(87%, -710%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;  
+}
+#app{
+transform: translate(0px,-230%);
+}
+#play{
+transform: translate(-105%, -60%);
+
+
+}
