@@ -1,1 +1,0 @@
-vai estudar irmão, tem nada programado aqui não.
